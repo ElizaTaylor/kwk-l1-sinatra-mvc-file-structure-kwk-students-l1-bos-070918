@@ -8,9 +8,16 @@ def initialize(name, breed, age)
   @age = age 
 end
 
+
+
+def @self.all 
+  @dog_array 
+end 
+
 end 
 
 
 
-
 pluto = Dog.new("Fido",13,"hound")
+sadie = Dog.new("sadie",13,"yellow lab")
+puts Dog.all 
