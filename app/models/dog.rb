@@ -1,6 +1,7 @@
 class Model
   # Replace with Dog clas
 attr_accessor: :name, :breed, :age 
+@dog_array = []
 
 def initialize(name, breed, age)
   @name =  name 
