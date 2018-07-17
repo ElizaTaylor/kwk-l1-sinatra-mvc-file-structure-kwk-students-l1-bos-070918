@@ -1,6 +1,16 @@
 class Model
   # Replace with Dog clas
-attr_accessor
+attr_accessor: :name, :breed, :age 
 
-def initialize(dog)
+def initialize(name, breed, age)
+  @name =  name 
+  @breed = breed 
+  @age = age 
 end
+
+end 
+
+
+
+
+pluto = Dog.new("Fido",13,"hound")
